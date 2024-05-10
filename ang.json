@@ -1204,7 +1204,25 @@
       ]
     }
   ],
-  "parses": [
+  "parses": [{
+      "name": "昂昂解析",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "ext": {
+        "flag": [
+          "qiyi",
+          "qq",
+          "letv",
+          "sohu",
+          "youku",
+          "mgtv",
+          "bilibili",
+          "wasu",
+          "xigua",
+          "1905"
+        ]
+      }
+    },
     {
       "name": "777",
       "type": 0,
@@ -1254,25 +1272,7 @@
           "User-Agent": ""
         }
       }
-    }, {
-      "name": "昂昂解析",
-      "type": 0,
-      "url": "https://jx.jsonplayer.com/player/?url=",
-      "ext": {
-        "flag": [
-          "qiyi",
-          "qq",
-          "letv",
-          "sohu",
-          "youku",
-          "mgtv",
-          "bilibili",
-          "wasu",
-          "xigua",
-          "1905"
-        ]
-      }
-    },
+    }, 
     {
       "name": "不累",
       "type": 0,
